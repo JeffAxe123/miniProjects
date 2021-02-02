@@ -1,0 +1,26 @@
+settings=["Games-Directory", "unathorisedJars-Directory", "crash-reports-folder"]
+        for options in config.values():
+            if any(n in options for n in core["illegal-chars"]):
+                try:
+                    if not error:
+                        usedSettings=settings.remove(dict(map(reversed, config.items()))[options])
+                        config[dict(map(reversed, config.items()))[options]]= backup_config[dict(map(reversed, config.items()))[options]]
+                        errror=True
+                    else:
+                        usedSettings=settings.remove(dict(map(reversed, config.items()))[options])
+                        backup_config[dict(map(reversed, config.items()))[options]]= original_config[dict(map(reversed, config.items()))[options]]
+                        config[dict(map(reversed, config.items()))[options]]= backup_config[dict(map(reversed, config.items()))[options]]
+                except ValueError as e:
+                    logging.info(e)
+            if options in core["illegal-names"]:
+                try:
+                    if not error:
+                        usedSettings=settings.remove(dict(map(reversed, config.items()))[options])
+                        config[dict(map(reversed, config.items()))[options]]=backup_config[dict(map(reversed, config.items()))[options]]
+                        error=True
+                    else:
+                        usedSettings=settings.remove(dict(map(reversed, config.items()))[options])
+                        backup_config[dict(map(reversed, config.items()))[options]]=original_config[dict(map(reversed, config.items()))[options]]
+                        config[dict(map(reversed, config.items()))[options]]=backup_config[dict(map(reversed, config.items()))[options]]
+                except ValueError as e:
+                    logging.info(e)
