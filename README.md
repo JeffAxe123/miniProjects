@@ -9,4 +9,4 @@ You must have Java 15 installed for this application to work, get [AdoptOpenJDk 
 or [OracleJDK 15](https://www.oracle.com/uk/java/technologies/javase-jdk15-downloads.html)
 The Java Source is also availiable at {projectname}/src.
 
-The jar wil be at games/{projectname}/out/artifacts/{projectname}
+The jar wil be at games/{projectname}/bin/{projectname}.jar
