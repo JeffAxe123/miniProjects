@@ -14,7 +14,9 @@
 --app.png
 --languages
 ---games
-----{gamename}.lang
------//json containing all the translations, reference the defualt.
+----{gamename}.lang //json containing all the translations, reference the defualt.
 ---launcher
-----
+----{lang}.lang //json containing all the key transaltions to a langauge, e.g. en.lang
+--downloads.txt //the list of games to download from /games. Will be removed later
+--launcher-version.txt //the current (stable) version of the launcher
+--launcher-version.dev //the current (unstable) version of the launcher
