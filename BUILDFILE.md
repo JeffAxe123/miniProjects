@@ -48,7 +48,8 @@ Follow the bellow steps for the formatting.
     "log-file": "app.log", //where the log for the launcher should go
     "name": "Java miniProjects", //the name of your project
     "programing-lanauge": "Python 3.9.1", //the language you use to code the project (currently optional)
-    "raw-server": "https://raw.githubusercontent.com/JeffAxe123/miniProjects/v2", //the server used to downlaod files from  (must fololw the folder struture)
+    "filehost": "https://raw.githubusercontent.com/JeffAxe123/miniProjects/v2", //the server used to downlaod files from  (must fololw the folder struture)
     "settings": ["folders.json","options.json"], //folders.json > configeraton for folder names, options.json > other options.
-    "used-server": "https://github.com/JeffAxe123/miniProjects" //the srrver used for the "Visit Homepage"
+    "homepage": "https://github.com/JeffAxe123/miniProjects", //the server/web page used for the "Visit Homepage"
+    "issues": "https://github.com/JeffAxe123/miniProjects/issues" //the web page used for the "Report a Bug/Suggest a Feature"
 }
