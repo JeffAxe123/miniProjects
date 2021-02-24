@@ -1,0 +1,11 @@
+{
+	"meta.update":"Une nouvelle mise à jour du lanceur est disponible!",
+	"menu.github.wiki":"Visitez la page Github",
+	"menu.github.issues":"Signaler un problème / suggérer une fonctionnalité (pour le lanceur ou les jeux)",
+	"menu.play":"Jouer",
+	"menu.settings":"Paramètres",
+	"meta.loading":"Chargement",
+	"menu.Main":"Menu principal",
+	"languages":"langages",
+	"menu.close":"ermer le lanceur"
+}
