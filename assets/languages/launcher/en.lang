@@ -1,7 +1,8 @@
 {
+	"menu.settings.advanced":"Advanced Settings",
 	"meta.update":"There is a new launcher update available!",
-	"menu.github.wiki":"Visit Github Page",
-	"menu.github.issues":"Report an Issue / Suggest a Feature(for launcher or games)",
+	"menu.site.homepage":"Visit Homepage",
+	"menu.site.issues":"Report an Issue / Suggest a Feature(for launcher or games)",
 	"menu.play":"Play",
 	"menu.settings":"Settings",
 	"meta.loading":"Loading",

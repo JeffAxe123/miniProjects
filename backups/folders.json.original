@@ -1,0 +1,7 @@
+{
+    "Games-Directory": "games",
+    "crash-reports-folder": "crash-reports",
+	"icons-folder":"assets/icons",
+    "unathorisedJars-Directory": "unathorisedJars",
+    "languages-folder":"assets/languages"
+}

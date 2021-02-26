@@ -1,0 +1,15 @@
+INFO:root:icons-folder contains an illegal char. It is being reverted to default name
+INFO:root:languages-folder contains an illegal char. It is being reverted to default name
+INFO:root:DEBUG mode is on
+DEBUG:root:en language is initiated
+DEBUG:root:Checking for new launcher versions
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): raw.githubusercontent.com:443
+DEBUG:urllib3.connectionpool:https://raw.githubusercontent.com:443 "GET /JeffAxe123/miniProjects/v2/assets/icons/app.png HTTP/1.1" 200 19046
+ERROR:root:'menu.site.homepage'
+Traceback (most recent call last):
+  File "C:\Users\18lew\jar_launchers\Java miniProjects\launcher.pyw", line 505, in <module>
+    mainWindow()
+  File "C:\Users\18lew\jar_launchers\Java miniProjects\launcher.pyw", line 299, in mainWindow
+    elif event == lang["menu.site.homepage"]:
+KeyError: 'menu.site.homepage'
+INFO:root:Process exited with code 1

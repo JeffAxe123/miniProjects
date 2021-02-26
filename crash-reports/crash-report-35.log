@@ -1,0 +1,34 @@
+INFO:root:DEBUG mode is on
+DEBUG:root:en language is initiated
+DEBUG:root:Checking for new launcher versions
+INFO:root:Downloading new games...
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): raw.githubusercontent.com:443
+DEBUG:urllib3.connectionpool:https://raw.githubusercontent.com:443 "GET /JeffAxe123/miniProjects/v2/downloads.txt HTTP/1.1" 200 37
+DEBUG:root:these games are: ['GuessANumber', 'GAN']
+DEBUG:root:GAN.jar is being checked against list of valid games
+DEBUG:root:GAN.jar is valid
+DEBUG:root:GuessANumber.jar is being checked against list of valid games
+DEBUG:root:GuessANumber.jar is valid
+DEBUG:root:You already have GuessANumber, skipping over
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): raw.githubusercontent.com:443
+DEBUG:urllib3.connectionpool:https://raw.githubusercontent.com:443 "GET /JeffAxe123/miniProjects/v2/games/GuessANumber/bin/GuessANumber.lang HTTP/1.1" 200 89
+DEBUG:root:downloading GuessANumber.lang
+DEBUG:root:You already have GAN, skipping over
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): raw.githubusercontent.com:443
+DEBUG:urllib3.connectionpool:https://raw.githubusercontent.com:443 "GET /JeffAxe123/miniProjects/v2/games/GAN/bin/GAN.lang HTTP/1.1" 200 49
+DEBUG:root:downloading GAN.lang
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): raw.githubusercontent.com:443
+DEBUG:urllib3.connectionpool:https://raw.githubusercontent.com:443 "GET /JeffAxe123/miniProjects/v2/assets/icons/games/GAN.png HTTP/1.1" 200 384
+INFO:root:'charmap' codec can't decode byte 0x8f in position 57: character maps to <undefined>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): raw.githubusercontent.com:443
+DEBUG:urllib3.connectionpool:https://raw.githubusercontent.com:443 "GET /JeffAxe123/miniProjects/v2/assets/icons/games/GuessANumber.png HTTP/1.1" 404 14
+ERROR:root:[WinError 123] The filename, directory name, or volume label syntax is incorrect: 'assets/icons/games/"+i+".png'
+Traceback (most recent call last):
+  File "C:\Users\18lew\jar_launchers\Java miniProjects\launcher.pyw", line 500, in <module>
+    mainWindow()
+  File "C:\Users\18lew\jar_launchers\Java miniProjects\launcher.pyw", line 303, in mainWindow
+    play()
+  File "C:\Users\18lew\jar_launchers\Java miniProjects\launcher.pyw", line 437, in play
+    os.remove(config["icons-folder"]+'/games/"+i+".png')
+OSError: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'assets/icons/games/"+i+".png'
+INFO:root:Process exited with code 1
