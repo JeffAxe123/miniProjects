@@ -1,7 +1,0 @@
-INFO:root:DEBUG mode is on
-ERROR:root:list index out of range
-Traceback (most recent call last):
-  File "C:\Users\18lew\jar_launchers\Java miniProjects\launcher.pyw", line 115, in <module>
-    logging.info("launched with argument "+str(sys.argv[1]))
-IndexError: list index out of range
-INFO:root:Process exited with code 1
